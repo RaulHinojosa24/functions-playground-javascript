@@ -4,12 +4,14 @@
  * La siguiente función escribe 'n' veces el texto que le pasamos en 'texto'
  */
 
- function esribeVeces(n, texto) {
-     for (let i=0; i<n; i++) {
-         console.log(texto)
-     }
- }
+function esribeVeces(n, texto) {
+    for (let i = 0; i < n; i++) {
+        console.log(texto)
+    }
+}
 
- /**
-  * Invoca esta función de manera adecuada para que escribe la palabra 'Hola!' 10 veces
-  */
+/**
+ * Invoca esta función de manera adecuada para que escribe la palabra 'Hola!' 10 veces
+ */
+
+esribeVeces(10, "Hola!")

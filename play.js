@@ -1,12 +1,12 @@
 // JavaScript define varias funciones globales
-// por ejemplo la función 'parseInt'. 
+// por ejemplo la función 'parseInt'.
 // Esta función toma por agumento un valor.
 // Transforma el valor del string en un number
 
 let soyUnString = '123';
-console.log("Ves? Soy un string: " + typeof(soyUnString))
+console.log("Ves? Soy un string: " + typeof (soyUnString));
 let soyUnNumero = parseInt(soyUnString);
-console.log("Me he convertido en un: " + typeof(soyUnNumero))
+console.log("Me he convertido en un: " + typeof (soyUnNumero));
 
 
 // Existe una 'variable' global en JavaScript llamada

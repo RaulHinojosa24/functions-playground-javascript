@@ -8,13 +8,14 @@
  * Implementa una función que devuelva un numero real con la cantidad de litros de agua que necesita el ciclista para recorrer 'km' kilómetros.
  */
 
- function agua_necesaria(km) {
-    let agua = 1
-    return agua
- }
 
- let agua = agua_necesaria(5)
- console.log("Para recorrer 5km , el ciclista necesitaria 2.5 litros de agua: " , agua)
+function agua_necesaria(km) {
+   let agua = .5;
+   return km * agua;
+}
 
- let agua2 = agua_necesaria(5)
- console.log("Para recorrer 20km , el ciclista necesitaria  litros de agua: " , agua2)
+let agua = agua_necesaria(5)
+console.log("Para recorrer 5km , el ciclista necesitaria 2.5 litros de agua: ", agua)
+
+let agua2 = agua_necesaria(20)
+console.log("Para recorrer 20km , el ciclista necesitaria 10 litros de agua: ", agua2)
